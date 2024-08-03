@@ -4,15 +4,17 @@
 
 **Deployment Steps:**
 
-**Virtual Private Cloud (VPC):**
+1. **Virtual Private Cloud (VPC):**
+  - Configured a VPC with public and private subnets across three availability zones for enhanced reliability and fault tolerance.
 
-1. Configured a VPC with public and private subnets across three availability zones for enhanced reliability and fault tolerance.
+2. **Internet Gateway:**
+  - Deployed an Internet Gateway to facilitate connectivity between VPC instances and the wider Internet.
 
-2. Deployed an Internet Gateway to facilitate connectivity between VPC instances and the wider Internet.
+3. **Security Groups:**
+  - Established Security Groups as a network firewall mechanism to control traffic to EC2 instances.
 
-3. Established Security Groups as a network firewall mechanism to control traffic to EC2 instances.
-
-4. Leveraged 3 Availability Zones to enhance system reliability and fault tolerance.
+4. **Availability Zones:**
+  - Leveraged 3 Availability Zones to enhance system reliability and fault tolerance.
 
 5. Utilized Public Subnets for infrastructure components like the NAT Gateway and Application Load Balancer.
 
