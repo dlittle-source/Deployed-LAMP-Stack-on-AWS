@@ -37,15 +37,20 @@
 11. **Application Load Balancer (ALB):**
     - Utilized an Application Load Balancer and a target group for evenly distributing web traffic to the Auto Scaling Group of EC2 instances across multiple Availability Zones.
 
-14. Secured application communication using a Certificate Manager.
+12. **Certificate Manager:**
+    - Secured application communication using a Certificate Manager.
 
-15. Configured SNS to alert about activities within the Auto Scaling Group.
+13. **Simple Notification Service (SNS):**
+    - Configured SNS to alert about activities within the Auto Scaling Group.
 
-16. Registered the domain name and set up a DNS record using Route 53.
+14. **Route 53:**
+    - Registered the domain name and set up a DNS record using Route 53.
 
-17. Created an S3 Bucket to store files.
+15. **Amazon S3:** 
+    - Created an S3 Bucket to store files.
 
-18. Utilized SQL Workbench to import data into the MySQL database.
+16. **SQL Workbench:**
+    - Utilized SQL Workbench to import data into the RDS MySQL database.
 
 **Repository:** The project reference diagram and deployment steps are available in the GitHub repository. Please take a look at the repository for detailed instructions on deploying the LAMP Stack website on AWS infrastructure.
 
