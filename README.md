@@ -46,10 +46,13 @@
 14. **Route 53:**
     - Registered the domain name and set up a DNS record using Route 53.
 
-15. **Amazon EFS** 
-    - Created an EFS file system to share web content.
+15. **Amazon S3** 
+    - Created an S3 Bucket to store web content.
 
-16. **Flyway:**
+16. **PHP**
+    - Installed PHP for dynamic and interactive websites. 
+
+17. **Flyway:**
     - Utilized Flyway to import data into the RDS MySQL database.
 
 **Repository:** The project reference diagram and deployment steps are available in the GitHub repository. Please take a look at the repository for detailed instructions on deploying the LAMP Stack website on AWS infrastructure.
