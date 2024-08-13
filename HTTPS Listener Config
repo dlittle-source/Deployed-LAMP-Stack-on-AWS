@@ -1,0 +1,8 @@
+Commands:
+
+cd /var/www/html
+sudo vi .env
+cd app
+cd Providers
+sudo vi AppServiceProvider.php
+sudo service httpd restart
