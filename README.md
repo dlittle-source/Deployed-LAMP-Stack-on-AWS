@@ -1,6 +1,6 @@
 ![Alt text](Host_LAMP_Stack_Website.png)
 
-**Project:** Hosting a LAMP Stack Website on AWS
+**Project:** Host a Web Application with LAMP Stack on AWS**
 
 **Project Overview:** In this project, I set up a LAMP Stack (Linux, Apache, MySQL, PHP) Stack Website on Amazon Web Services (AWS) utilizing various AWS services to ensure Scalability, High availability, and security. Below is a summary of the key components and steps involved in the deployment:
 
